@@ -1,0 +1,66 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no, viewport-fit=cover">
+  <meta name="theme-color" content="#fbf5e8">
+  <title>Blondie Cook Pastry — Virtual Shops</title>
+  <meta name="description" content="Walk through the Blondie Cook Pastry concept shops in 3D.">
+  <link rel="icon" href="./img/logo-256.png">
+  <script type="module" crossorigin src="./assets/index-4_c9VyjN.js"></script>
+  <link rel="stylesheet" crossorigin href="./assets/index-DugRmdF3.css">
+</head>
+<body>
+  <canvas id="view"></canvas>
+
+  <section id="picker" class="screen">
+    <header>
+      <img src="./img/logo.png" alt="Blondie Cook Pastry" width="132" height="132">
+      <div>
+        <h1>Blondie Cook Pastry</h1>
+        <p class="tag">• Simply Perfect •</p>
+        <p class="lead">Six concept shops, from a 30 m² boutique to the flagship. Pick one and walk in.</p>
+      </div>
+    </header>
+    <div id="cards"></div>
+    <footer>
+      <span>Desktop: click to look, <kbd>W</kbd><kbd>A</kbd><kbd>S</kbd><kbd>D</kbd> to walk, <kbd>Shift</kbd> to hurry.</span>
+      <span>Phone: left thumb walks, right thumb looks.</span>
+    </footer>
+  </section>
+
+  <div id="loading" hidden>
+    <img src="./img/logo-256.png" alt="" width="96" height="96">
+    <p id="loading-name"></p>
+    <div class="bar"><i id="loading-bar"></i></div>
+  </div>
+
+  <div id="hud" hidden>
+    <div class="top">
+      <button id="btn-shops" class="pill" title="Choose another shop">
+        <img src="./img/logo-256.png" alt="" width="30" height="30"><span id="hud-name"></span>
+      </button>
+      <div class="spacer"></div>
+      <button id="btn-map" class="pill icon" title="Floor plan (P)">Plan</button>
+      <button id="btn-menu" class="pill accent" title="Products & menu (M)">Menu</button>
+    </div>
+    <div id="hint"></div>
+    <button id="prompt" hidden></button>
+    <div id="minimap"><img id="minimap-img" alt="Floor plan"><i id="minimap-dot"></i></div>
+    <div id="stick"><i></i></div>
+  </div>
+
+  <aside id="menu" hidden>
+    <div class="menu-head">
+      <div>
+        <h2>Menu</h2>
+        <p>Order on <a id="store-link" href="https://www.shopier.com/BlondieCookPastry" target="_blank" rel="noopener">Shopier</a></p>
+      </div>
+      <button id="menu-close" class="pill">Close</button>
+    </div>
+    <nav id="menu-tabs"></nav>
+    <div id="menu-list"></div>
+  </aside>
+
+</body>
+</html>

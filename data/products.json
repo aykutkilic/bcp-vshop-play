@@ -1,0 +1,410 @@
+{
+ "store": "https://www.shopier.com/BlondieCookPastry",
+ "products": [
+  {
+   "id": 52596556,
+   "name": "Black Forest Cookie",
+   "price": "₺1.200",
+   "link": "https://www.shopier.com/BlondieCookPastry/52596556",
+   "image": "products/52596556.jpg",
+   "section": "Cookies",
+   "isNew": true
+  },
+  {
+   "id": 52596074,
+   "name": "Red Velvet Cookie",
+   "price": "₺1.200",
+   "link": "https://www.shopier.com/BlondieCookPastry/52596074",
+   "image": "products/52596074.jpg",
+   "section": "Cookies",
+   "isNew": true
+  },
+  {
+   "id": 52595994,
+   "name": "Moonberry Cookie",
+   "price": "₺1.000",
+   "link": "https://www.shopier.com/BlondieCookPastry/52595994",
+   "image": "products/52595994.jpg",
+   "section": "Cookies",
+   "isNew": true
+  },
+  {
+   "id": 52595800,
+   "name": "Anatolian Gold Cookie",
+   "price": "₺1.000",
+   "link": "https://www.shopier.com/BlondieCookPastry/52595800",
+   "image": "products/52595800.jpg",
+   "section": "Cookies",
+   "isNew": true
+  },
+  {
+   "id": 52595657,
+   "name": "Molten Brownie Cookie",
+   "price": "₺1.000",
+   "link": "https://www.shopier.com/BlondieCookPastry/52595657",
+   "image": "products/52595657.jpg",
+   "section": "Cookies",
+   "isNew": true
+  },
+  {
+   "id": 52595313,
+   "name": "Quadruple Chocolate Cookie",
+   "price": "₺1.000",
+   "link": "https://www.shopier.com/BlondieCookPastry/52595313",
+   "image": "products/52595313.jpg",
+   "section": "Cookies",
+   "isNew": true
+  },
+  {
+   "id": 52591981,
+   "name": "Amalfi Lemon Cookie",
+   "price": "₺1.000",
+   "link": "https://www.shopier.com/BlondieCookPastry/52591981",
+   "image": "products/52591981.jpg",
+   "section": "Cookies",
+   "isNew": true
+  },
+  {
+   "id": 52591487,
+   "name": "Queen's Gambit Cake (Chess Cake)",
+   "price": "₺15.000",
+   "link": "https://www.shopier.com/BlondieCookPastry/52591487",
+   "image": "products/52591487.jpg",
+   "section": "Kids & Themed",
+   "isNew": true
+  },
+  {
+   "id": 52573895,
+   "name": "Flowers & Artistic Long Cake | 70 - 100 Kişilik Düğün Pastası",
+   "price": "₺27.500",
+   "link": "https://www.shopier.com/BlondieCookPastry/52573895",
+   "image": "products/52573895.jpg",
+   "section": "Wedding & Bridal",
+   "isNew": true
+  },
+  {
+   "id": 52572972,
+   "name": "Scholar - Themed Cake (The Scholar's Table Cake)",
+   "price": "₺7.000",
+   "link": "https://www.shopier.com/BlondieCookPastry/52572972",
+   "image": "products/52572972.jpg",
+   "section": "Kids & Themed",
+   "isNew": true
+  },
+  {
+   "id": 44199566,
+   "name": "Sweet Valentine Cookie Cake",
+   "price": "₺3.000",
+   "link": "https://www.shopier.com/BlondieCookPastry/44199566",
+   "image": "products/44199566.jpg",
+   "section": "Signature Cakes",
+   "isNew": false
+  },
+  {
+   "id": 44192892,
+   "name": "No.1 Deep Burgundy Ribbon Fondant Cake (Kurdele Süslemeli Kalp Pasta)",
+   "price": "₺3.500",
+   "link": "https://www.shopier.com/BlondieCookPastry/44192892",
+   "image": "products/44192892.jpg",
+   "section": "Signature Cakes",
+   "isNew": false
+  },
+  {
+   "id": 44128262,
+   "name": "Music & Moon - Themed Birthday Cake",
+   "price": "₺6.000",
+   "link": "https://www.shopier.com/BlondieCookPastry/44128262",
+   "image": "products/44128262.jpg",
+   "section": "Kids & Themed",
+   "isNew": false
+  },
+  {
+   "id": 44117976,
+   "name": "Strawberry Kiss Cupcake Pack",
+   "price": "₺1.600",
+   "link": "https://www.shopier.com/BlondieCookPastry/44117976",
+   "image": "products/44117976.jpg",
+   "section": "Cupcakes & Minis",
+   "isNew": false
+  },
+  {
+   "id": 44117755,
+   "name": "Sweet Valentine Cookie Jar",
+   "price": "₺1.500",
+   "link": "https://www.shopier.com/BlondieCookPastry/44117755",
+   "image": "products/44117755.jpg",
+   "section": "Cookies",
+   "isNew": false
+  },
+  {
+   "id": 44116862,
+   "name": "Oh My Darling! - Cupcake Pack",
+   "price": "₺2.000",
+   "link": "https://www.shopier.com/BlondieCookPastry/44116862",
+   "image": "products/44116862.jpg",
+   "section": "Cupcakes & Minis",
+   "isNew": false
+  },
+  {
+   "id": 43787767,
+   "name": "Sweet Valentine Chill Box",
+   "price": "₺2.500",
+   "link": "https://www.shopier.com/BlondieCookPastry/43787767",
+   "image": "products/43787767.jpg",
+   "section": "Cupcakes & Minis",
+   "isNew": false
+  },
+  {
+   "id": 43787048,
+   "name": "Sweet Valentine Tic Tac Toe Cookie Set",
+   "price": "₺750",
+   "link": "https://www.shopier.com/BlondieCookPastry/43787048",
+   "image": "products/43787048.jpg",
+   "section": "Cookies",
+   "isNew": false
+  },
+  {
+   "id": 43786843,
+   "name": "Sweet Valentine Mini Cake Snacks",
+   "price": "₺1.500",
+   "link": "https://www.shopier.com/BlondieCookPastry/43786843",
+   "image": "products/43786843.jpg",
+   "section": "Cupcakes & Minis",
+   "isNew": false
+  },
+  {
+   "id": 43786697,
+   "name": "Burgundy Cookie (Cacao & White Chocolate)",
+   "price": "₺250",
+   "link": "https://www.shopier.com/BlondieCookPastry/43786697",
+   "image": "products/43786697.jpg",
+   "section": "Cookies",
+   "isNew": false
+  },
+  {
+   "id": 43786540,
+   "name": "Burgundy Cookie Box (Cacao & White Chocolate)",
+   "price": "₺1.500",
+   "link": "https://www.shopier.com/BlondieCookPastry/43786540",
+   "image": "products/43786540.jpg",
+   "section": "Cookies",
+   "isNew": false
+  },
+  {
+   "id": 43784069,
+   "name": "Nature-Themed Birthday Cake",
+   "price": "₺8.000",
+   "link": "https://www.shopier.com/BlondieCookPastry/43784069",
+   "image": "products/43784069.jpg",
+   "section": "Kids & Themed",
+   "isNew": false
+  },
+  {
+   "id": 43783796,
+   "name": "Hello Kitty Birthday Cake",
+   "price": "₺9.000",
+   "link": "https://www.shopier.com/BlondieCookPastry/43783796",
+   "image": "products/43783796.jpg",
+   "section": "Kids & Themed",
+   "isNew": false
+  },
+  {
+   "id": 42924763,
+   "name": "New Year Russian Medovik Tree Cake / 20-25 Kişilik",
+   "price": "₺9.000",
+   "link": "https://www.shopier.com/BlondieCookPastry/42924763",
+   "image": "products/42924763.jpg",
+   "section": "Signature Cakes",
+   "isNew": false
+  },
+  {
+   "id": 42924078,
+   "name": "No.2 Antique Bronze Ribbon Fondant Heart Cake (Kurdele Süslemeli Kalp Pasta)",
+   "price": "₺5.500",
+   "link": "https://www.shopier.com/BlondieCookPastry/42924078",
+   "image": "products/42924078.jpg",
+   "section": "Signature Cakes",
+   "isNew": false
+  },
+  {
+   "id": 42923195,
+   "name": "New Year Salame Al Cioccolato",
+   "price": "₺2.000",
+   "link": "https://www.shopier.com/BlondieCookPastry/42923195",
+   "image": "products/42923195.jpg",
+   "section": "Signature Cakes",
+   "isNew": false
+  },
+  {
+   "id": 42922546,
+   "name": "New Year Cookie Cake / 8 Kişilik",
+   "price": "₺3.500",
+   "link": "https://www.shopier.com/BlondieCookPastry/42922546",
+   "image": "products/42922546.jpg",
+   "section": "Signature Cakes",
+   "isNew": false
+  },
+  {
+   "id": 42463159,
+   "name": "New Year House Cake / 18-27 Kişilik",
+   "price": "₺6.500",
+   "link": "https://www.shopier.com/BlondieCookPastry/42463159",
+   "image": "products/42463159.jpg",
+   "section": "Signature Cakes",
+   "isNew": false
+  },
+  {
+   "id": 42325505,
+   "name": "'Love Is Your Color' Engagement Cake",
+   "price": "₺20.000",
+   "link": "https://www.shopier.com/BlondieCookPastry/42325505",
+   "image": "products/42325505.jpg",
+   "section": "Wedding & Bridal",
+   "isNew": false
+  },
+  {
+   "id": 42256442,
+   "name": "Lavender Kiss Sheet Cake",
+   "price": "₺7.500",
+   "link": "https://www.shopier.com/BlondieCookPastry/42256442",
+   "image": "products/42256442.jpg",
+   "section": "Signature Cakes",
+   "isNew": false
+  },
+  {
+   "id": 42245915,
+   "name": "New Year Gingerbread Cookies Cake (2 Tier)",
+   "price": "₺16.500",
+   "link": "https://www.shopier.com/BlondieCookPastry/42245915",
+   "image": "products/42245915.jpg",
+   "section": "Wedding & Bridal",
+   "isNew": false
+  },
+  {
+   "id": 42242746,
+   "name": "Tiramisu | Classico Italiano",
+   "price": "₺400",
+   "link": "https://www.shopier.com/BlondieCookPastry/42242746",
+   "image": "products/42242746.jpg",
+   "section": "Signature Cakes",
+   "isNew": false
+  },
+  {
+   "id": 41057650,
+   "name": "No.2 Gold Ribbon Fondant Heart Cake (Kurdele Süslemeli Kalp Pasta)",
+   "price": "₺6.000",
+   "link": "https://www.shopier.com/BlondieCookPastry/41057650",
+   "image": "products/41057650.jpg",
+   "section": "Signature Cakes",
+   "isNew": false
+  },
+  {
+   "id": 40647593,
+   "name": "Autumn Tart",
+   "price": "₺5.000",
+   "link": "https://www.shopier.com/BlondieCookPastry/40647593",
+   "image": "products/40647593.jpg",
+   "section": "Cupcakes & Minis",
+   "isNew": false
+  },
+  {
+   "id": 40288899,
+   "name": "Russian Honey (Medovik) Cake",
+   "price": "₺4.000",
+   "link": "https://www.shopier.com/BlondieCookPastry/40288899",
+   "image": "products/40288899.jpg",
+   "section": "Signature Cakes",
+   "isNew": false
+  },
+  {
+   "id": 40111187,
+   "name": "Heart Vintage Cake",
+   "price": "₺4.500",
+   "link": "https://www.shopier.com/BlondieCookPastry/40111187",
+   "image": "products/40111187.jpg",
+   "section": "Signature Cakes",
+   "isNew": false
+  },
+  {
+   "id": 39630448,
+   "name": "No.1 Vintage Cake | 8 - 10 Kişilik",
+   "price": "₺4.000",
+   "link": "https://www.shopier.com/BlondieCookPastry/39630448",
+   "image": "products/39630448.jpg",
+   "section": "Signature Cakes",
+   "isNew": false
+  },
+  {
+   "id": 38803887,
+   "name": "Summer Tart",
+   "price": "₺4.500",
+   "link": "https://www.shopier.com/BlondieCookPastry/38803887",
+   "image": "products/38803887.jpg",
+   "section": "Cupcakes & Minis",
+   "isNew": false
+  },
+  {
+   "id": 38643983,
+   "name": "Spring Tart",
+   "price": "₺4.500",
+   "link": "https://www.shopier.com/BlondieCookPastry/38643983",
+   "image": "products/38643983.jpg",
+   "section": "Cupcakes & Minis",
+   "isNew": false
+  },
+  {
+   "id": 38643780,
+   "name": "Winter Tart",
+   "price": "₺4.500",
+   "link": "https://www.shopier.com/BlondieCookPastry/38643780",
+   "image": "products/38643780.jpg",
+   "section": "Cupcakes & Minis",
+   "isNew": false
+  },
+  {
+   "id": 38643174,
+   "name": "Santa Maria Cookie Cake",
+   "price": "₺6.000",
+   "link": "https://www.shopier.com/BlondieCookPastry/38643174",
+   "image": "products/38643174.jpg",
+   "section": "Signature Cakes",
+   "isNew": false
+  },
+  {
+   "id": 38642022,
+   "name": "Epoca 'M Letter' Chocolate Cookie Cake",
+   "price": "₺8.000",
+   "link": "https://www.shopier.com/BlondieCookPastry/38642022",
+   "image": "products/38642022.jpg",
+   "section": "Signature Cakes",
+   "isNew": false
+  },
+  {
+   "id": 38632118,
+   "name": "Waltz of the Flowers Artistic Cake",
+   "price": "₺8.000",
+   "link": "https://www.shopier.com/BlondieCookPastry/38632118",
+   "image": "products/38632118.jpg",
+   "section": "Signature Cakes",
+   "isNew": false
+  },
+  {
+   "id": 38625259,
+   "name": "Voced de Primavera Sheet Cake",
+   "price": "₺10.000",
+   "link": "https://www.shopier.com/BlondieCookPastry/38625259",
+   "image": "products/38625259.jpg",
+   "section": "Signature Cakes",
+   "isNew": false
+  },
+  {
+   "id": 38619435,
+   "name": "Sweet Pinky Baby Shower Cake",
+   "price": "₺10.000",
+   "link": "https://www.shopier.com/BlondieCookPastry/38619435",
+   "image": "products/38619435.jpg",
+   "section": "Kids & Themed",
+   "isNew": false
+  }
+ ]
+}
