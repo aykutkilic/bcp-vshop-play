@@ -1,14 +1,15 @@
 <!doctype html>
-<html lang="en">
+<html lang="tr">
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no, viewport-fit=cover">
   <meta name="theme-color" content="#fbf5e8">
-  <title>Blondie Cook Pastry — Moda Atelier</title>
-  <meta name="description" content="Explore the 75 m² Moda atelier and the Blondie Cook Pastry concept shops in 3D.">
+  <title>Blondie Cook Pastry — Erenköy Atelier</title>
+  <meta name="description" content="Explore the 75 m² Erenköy atelier and the Blondie Cook Pastry concept shops in 3D.">
+  <link rel="canonical" href="https://blondiecookpastry.com/">
   <link rel="icon" href="./img/logo-256.png">
-  <script type="module" crossorigin src="./assets/index-D73OFct6.js"></script>
-  <link rel="stylesheet" crossorigin href="./assets/index-p5P8-aqn.css">
+  <script type="module" crossorigin src="./assets/index-BIrtzyYU.js"></script>
+  <link rel="stylesheet" crossorigin href="./assets/index-DjInDdsD.css">
 </head>
 <body>
   <canvas id="view"></canvas>
@@ -19,13 +20,13 @@
       <div>
         <h1>Blondie Cook Pastry</h1>
         <p class="tag">• Simply Perfect •</p>
-        <p class="lead">Explore the main Moda atelier or choose another concept shop, by day or by night.</p>
+        <p class="lead" data-i18n="lead">Erenköy atölyesini keşfedin veya başka bir konsept mağaza seçin.</p>
       </div>
     </header>
     <div id="cards"></div>
     <footer>
-      <span>Desktop: drag to look, click products to shop, <kbd>W</kbd><kbd>A</kbd><kbd>S</kbd><kbd>D</kbd> to walk.</span>
-      <span>Click or tap doors to toggle them. Phone: left thumb walks, right thumb looks.</span>
+      <span data-i18n="desktopHelp">WASD ile yürüyün; bakmak için sürükleyin.</span>
+      <span data-i18n="touchHelp">Kapıları açıp kapatmak için tıklayın.</span>
     </footer>
   </section>
 
@@ -37,15 +38,13 @@
 
   <div id="hud" hidden>
     <div class="top">
-      <button id="btn-shops" class="pill" title="Choose another shop">
+      <button id="btn-shops" class="pill" data-i18n-title="shops" title="Başka bir mağaza seç">
         <img src="./img/logo-256.png" alt="" width="30" height="30"><span id="hud-name"></span>
       </button>
       <div class="spacer"></div>
-      <button id="btn-night" class="pill" title="Switch to night (N)">Night</button>
-      <button id="btn-look" class="pill" title="Look around with the mouse (L); Esc frees the cursor" aria-pressed="false">Look</button>
-      <button id="btn-map" class="pill icon" title="Floor plan (P)">Plan</button>
-      <button id="btn-menu" class="pill accent" title="Products & menu (M)">Menu</button>
-      <button id="btn-quality" class="pill" title="Switch automatic, detailed or faster graphics">Quality: Auto</button>
+      <button id="btn-night" class="pill icon-button" aria-label="Gündüze geç"></button>
+      <button id="btn-menu" class="pill accent" data-i18n="menu" data-i18n-title="menuTitle">Menü</button>
+      <button id="btn-quality" class="pill icon-button" aria-label="Görüntü kalitesi"></button>
     </div>
     <div id="zone"></div>
     <div id="hint"></div>
@@ -55,21 +54,28 @@
       <img id="product-img" alt="" width="64" height="64">
       <span><small id="product-section"></small><b id="product-name"></b><em id="product-price"></em></span>
     </a>
-    <div id="minimap"><img id="minimap-img" alt="Floor plan"><i id="minimap-dot"></i></div>
     <div id="stick"><i></i></div>
   </div>
 
   <aside id="menu" hidden>
     <div class="menu-head">
       <div>
-        <h2>Menu</h2>
-        <p>Order on <a id="store-link" href="https://www.shopier.com/BlondieCookPastry" target="_blank" rel="noopener">Shopier</a></p>
+        <h2 data-i18n="menu">Menü</h2>
+        <p><span data-i18n="orderPrefix">Sipariş:</span> <a id="store-link" href="https://www.shopier.com/BlondieCookPastry" target="_blank" rel="noopener">Shopier</a></p>
       </div>
-      <button id="menu-close" class="pill">Close</button>
+      <button id="menu-close" class="pill" data-i18n="close">Kapat</button>
     </div>
     <nav id="menu-tabs"></nav>
     <div id="menu-list"></div>
   </aside>
+
+  <div id="language-picker">
+    <button id="btn-language" class="pill icon-button" aria-label="Dil seçimi" aria-haspopup="menu" aria-expanded="false" aria-controls="language-options">🇹🇷</button>
+    <div id="language-options" role="menu" hidden>
+      <button role="menuitemradio" data-language="tr" lang="tr" aria-checked="true">🇹🇷 Türkçe</button>
+      <button role="menuitemradio" data-language="en" lang="en" aria-checked="false">🇬🇧 English</button>
+    </div>
+  </div>
 
 </body>
 </html>
