@@ -8,17 +8,27 @@
   <meta name="description" content="Explore the 75 m² Blondie Cook Pastry Erenköy atelier in 3D.">
   <link rel="canonical" href="https://blondiecookpastry.com/">
   <link rel="icon" href="./img/logo-256.png">
-  <script type="module" crossorigin src="./assets/index-DLBh6tb5.js"></script>
-  <link rel="stylesheet" crossorigin href="./assets/index-CtvvpqbB.css">
+  <link rel="preload" as="image" href="./assets/entrance-desktop--suhg2wJ.png" media="(aspect-ratio > 4/5)" fetchpriority="high">
+  <link rel="preload" as="image" href="./assets/entrance-mobile-C2tYh4LE.png" media="(max-aspect-ratio: 4/5)" fetchpriority="high">
+  <script type="module" crossorigin src="./assets/index-DY9hruod.js"></script>
+  <link rel="stylesheet" crossorigin href="./assets/index-BFaIeYWh.css">
 </head>
 <body>
   <canvas id="view"></canvas>
 
   <div id="loading">
-    <img src="./img/logo-256.png" alt="" width="96" height="96">
-    <p id="loading-name">Erenköy Atölyesi</p>
-    <div class="bar"><i id="loading-bar"></i></div>
-    <button id="loading-retry" class="pill" data-i18n="retry" hidden>Tekrar dene</button>
+    <picture class="entrance-preview">
+      <source media="(max-aspect-ratio: 4/5)" srcset="./assets/entrance-mobile-C2tYh4LE.png">
+      <img src="./assets/entrance-desktop--suhg2wJ.png" alt="" width="1200" height="800" fetchpriority="high">
+    </picture>
+    <div class="loading-card">
+      <p id="loading-name">Erenköy Atölyesi</p>
+      <p class="loading-status" role="status" data-i18n="loadingEntrance">Atölye hazırlanıyor…</p>
+      <div class="bar" aria-hidden="true"><i id="loading-bar"></i></div>
+      <a id="loading-shopier" class="pill accent" href="https://www.shopier.com/BlondieCookPastry" target="_blank" rel="noopener" data-i18n="shopierMenu">Shopier menüsünü aç ↗</a>
+      <button id="loading-retry" class="pill" data-i18n="retry" hidden>Tekrar dene</button>
+      <noscript>3D atölye için JavaScript gerekir. Shopier menüsünden alışveriş yapabilirsiniz.</noscript>
+    </div>
   </div>
 
   <div id="hud" hidden>
