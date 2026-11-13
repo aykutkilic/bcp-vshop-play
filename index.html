@@ -5,42 +5,27 @@
   <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no, viewport-fit=cover">
   <meta name="theme-color" content="#fbf5e8">
   <title>Blondie Cook Pastry — Erenköy Atelier</title>
-  <meta name="description" content="Explore the 75 m² Erenköy atelier and the Blondie Cook Pastry concept shops in 3D.">
+  <meta name="description" content="Explore the 75 m² Blondie Cook Pastry Erenköy atelier in 3D.">
   <link rel="canonical" href="https://blondiecookpastry.com/">
   <link rel="icon" href="./img/logo-256.png">
-  <script type="module" crossorigin src="./assets/index-BjDz1YRo.js"></script>
-  <link rel="stylesheet" crossorigin href="./assets/index-DjInDdsD.css">
+  <script type="module" crossorigin src="./assets/index-460d-T3E.js"></script>
+  <link rel="stylesheet" crossorigin href="./assets/index-DAvGywr9.css">
 </head>
 <body>
   <canvas id="view"></canvas>
 
-  <section id="picker" class="screen" hidden>
-    <header>
-      <img src="./img/logo.png" alt="Blondie Cook Pastry" width="132" height="132">
-      <div>
-        <h1>Blondie Cook Pastry</h1>
-        <p class="tag">• Simply Perfect •</p>
-        <p class="lead" data-i18n="lead">Erenköy atölyesini keşfedin veya başka bir konsept mağaza seçin.</p>
-      </div>
-    </header>
-    <div id="cards"></div>
-    <footer>
-      <span data-i18n="desktopHelp">WASD ile yürüyün; bakmak için sürükleyin.</span>
-      <span data-i18n="touchHelp">Kapıları açıp kapatmak için tıklayın.</span>
-    </footer>
-  </section>
-
-  <div id="loading" hidden>
+  <div id="loading">
     <img src="./img/logo-256.png" alt="" width="96" height="96">
-    <p id="loading-name"></p>
+    <p id="loading-name">Erenköy Atölyesi</p>
     <div class="bar"><i id="loading-bar"></i></div>
+    <button id="loading-retry" class="pill" data-i18n="retry" hidden>Tekrar dene</button>
   </div>
 
   <div id="hud" hidden>
     <div class="top">
-      <button id="btn-shops" class="pill" data-i18n-title="shops" title="Başka bir mağaza seç">
+      <div id="shop-identity" class="pill">
         <img src="./img/logo-256.png" alt="" width="30" height="30"><span id="hud-name"></span>
-      </button>
+      </div>
       <div class="spacer"></div>
       <button id="btn-night" class="pill icon-button" aria-label="Gündüze geç"></button>
       <button id="btn-menu" class="pill accent" data-i18n="menu" data-i18n-title="menuTitle">Menü</button>
