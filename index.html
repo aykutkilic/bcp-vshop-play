@@ -11,18 +11,18 @@
   <meta name="description" content="Explore the Blondie Cook Pastry Erenköy atelier in 3D.">
   <link rel="canonical" href="https://blondiecookpastry.com/">
   <link rel="icon" href="./img/logo-256.png">
-  <link rel="preload" as="image" href="./assets/entrance-desktop-B2_bxkq_.png" media="(aspect-ratio > 4/5)" fetchpriority="high">
-  <link rel="preload" as="image" href="./assets/entrance-mobile-h3adxtaN.png" media="(max-aspect-ratio: 4/5)" fetchpriority="high">
-  <script type="module" crossorigin src="./assets/index-DLUSz7FC.js"></script>
-  <link rel="stylesheet" crossorigin href="./assets/index-ClDS88ra.css">
+  <link rel="preload" as="image" href="./assets/entrance-desktop-CqcWxCQo.webp" media="(aspect-ratio > 4/5)" fetchpriority="high">
+  <link rel="preload" as="image" href="./assets/entrance-mobile-C91yV0_u.webp" media="(max-aspect-ratio: 4/5)" fetchpriority="high">
+  <script type="module" crossorigin src="./assets/index-jKp0ajmr.js"></script>
+  <link rel="stylesheet" crossorigin href="./assets/index-pppcUm8A.css">
 </head>
 <body>
   <canvas id="view"></canvas>
 
   <div id="loading">
     <picture class="entrance-preview">
-      <source media="(max-aspect-ratio: 4/5)" srcset="./assets/entrance-mobile-h3adxtaN.png">
-      <img src="./assets/entrance-desktop-B2_bxkq_.png" alt="" width="1200" height="800" fetchpriority="high">
+      <source media="(max-aspect-ratio: 4/5)" srcset="./assets/entrance-mobile-C91yV0_u.webp">
+      <img src="./assets/entrance-desktop-CqcWxCQo.webp" alt="" width="2880" height="1920" fetchpriority="high">
     </picture>
     <div class="loading-card">
       <p id="loading-name">Erenköy Atölyesi</p>
@@ -40,6 +40,10 @@
       <button id="btn-sound" class="pill icon-button" aria-label="Sesi kapat"></button>
       <button id="btn-menu" class="pill accent" data-i18n="menu" data-i18n-title="menuTitle">Menü</button>
       <button id="btn-quality" class="pill icon-button" aria-label="Görüntü kalitesi"></button>
+    </div>
+    <div id="navigation-modes" role="group" data-i18n-aria="navigationMode" aria-label="Gezinme modu">
+      <button id="mode-display" type="button" aria-pressed="true" data-i18n="displayMode">Vitrin</button>
+      <button id="mode-walk" type="button" aria-pressed="false" data-i18n="walkMode">Serbest</button>
     </div>
     <div id="zone"></div>
     <div id="hint"></div>
