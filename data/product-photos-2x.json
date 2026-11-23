@@ -634,6 +634,20 @@
         960
       ],
       "device": "mps"
+    },
+    "53048080": {
+      "image": "products/53048080-2x.webp",
+      "sourceSha256": "63acada19fd5d458ba88452bdc67a0653710d64fe2bd326931dcac47229774d7",
+      "sha256": "4488334cfb839b6e051348d13c79768e001b27fdcd235b05824ae85cdd0e20e0",
+      "sourceSize": [
+        480,
+        480
+      ],
+      "size": [
+        960,
+        960
+      ],
+      "device": "mps"
     }
   }
 }

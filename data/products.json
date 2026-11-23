@@ -2,13 +2,22 @@
  "store": "https://www.shopier.com/BlondieCookPastry",
  "products": [
   {
+   "id": 53048080,
+   "name": "COOKIMISU (Tiramisu Cookie)",
+   "price": "₺1.400",
+   "link": "https://www.shopier.com/BlondieCookPastry/53048080",
+   "image": "products/53048080.jpg",
+   "section": "Cookies",
+   "isNew": true
+  },
+  {
    "id": 52596556,
    "name": "Black Forest Cookie",
    "price": "₺1.200",
    "link": "https://www.shopier.com/BlondieCookPastry/52596556",
    "image": "products/52596556.jpg",
    "section": "Cookies",
-   "isNew": true
+   "isNew": false
   },
   {
    "id": 52596074,
@@ -17,7 +26,7 @@
    "link": "https://www.shopier.com/BlondieCookPastry/52596074",
    "image": "products/52596074.jpg",
    "section": "Cookies",
-   "isNew": true
+   "isNew": false
   },
   {
    "id": 52595994,
@@ -26,7 +35,7 @@
    "link": "https://www.shopier.com/BlondieCookPastry/52595994",
    "image": "products/52595994.jpg",
    "section": "Cookies",
-   "isNew": true
+   "isNew": false
   },
   {
    "id": 52595800,
@@ -35,7 +44,7 @@
    "link": "https://www.shopier.com/BlondieCookPastry/52595800",
    "image": "products/52595800.jpg",
    "section": "Cookies",
-   "isNew": true
+   "isNew": false
   },
   {
    "id": 52595657,
@@ -44,7 +53,7 @@
    "link": "https://www.shopier.com/BlondieCookPastry/52595657",
    "image": "products/52595657.jpg",
    "section": "Cookies",
-   "isNew": true
+   "isNew": false
   },
   {
    "id": 52595313,
@@ -53,7 +62,7 @@
    "link": "https://www.shopier.com/BlondieCookPastry/52595313",
    "image": "products/52595313.jpg",
    "section": "Cookies",
-   "isNew": true
+   "isNew": false
   },
   {
    "id": 52591981,
@@ -62,7 +71,7 @@
    "link": "https://www.shopier.com/BlondieCookPastry/52591981",
    "image": "products/52591981.jpg",
    "section": "Cookies",
-   "isNew": true
+   "isNew": false
   },
   {
    "id": 52591487,
@@ -71,7 +80,7 @@
    "link": "https://www.shopier.com/BlondieCookPastry/52591487",
    "image": "products/52591487.jpg",
    "section": "Kids & Themed",
-   "isNew": true
+   "isNew": false
   },
   {
    "id": 52573895,
@@ -80,7 +89,7 @@
    "link": "https://www.shopier.com/BlondieCookPastry/52573895",
    "image": "products/52573895.jpg",
    "section": "Wedding & Bridal",
-   "isNew": true
+   "isNew": false
   },
   {
    "id": 52572972,
@@ -89,7 +98,7 @@
    "link": "https://www.shopier.com/BlondieCookPastry/52572972",
    "image": "products/52572972.jpg",
    "section": "Kids & Themed",
-   "isNew": true
+   "isNew": false
   },
   {
    "id": 44199566,
